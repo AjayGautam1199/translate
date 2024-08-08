@@ -69,7 +69,7 @@ def text_to_speech(text, gender, output_file):
         os.remove(temp_file)
     except Exception as e:
         print(f"Text-to-Speech error: {e}")
-        
+
 # Main function to process audio file
 def translate_audio(input_audio, output_audio):
     # Perform speaker diarization
@@ -83,7 +83,7 @@ def translate_audio(input_audio, output_audio):
 
         # Classify gender
         gender = classify_gender(segment_audio, model, scaler)
-
+        #gender should be different
         # Convert speech to text
         chinese_text = speech_to_text(segment_audio)
         if chinese_text:
