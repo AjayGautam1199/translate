@@ -2,9 +2,9 @@
 
 # Here's a high-level overview of how you can achieve this:
 
-Speech Recognition: Convert the Chinese speech in the audio file to text using a speech recognition library.
-Translation: Translate the recognized Chinese text to Hindi using a translation service.
-Text-to-Speech: Convert the translated Hindi text back to speech using a text-to-speech library.
+1. Speech Recognition: Convert the Chinese speech in the audio file to text using a speech recognition library.
+2. Translation: Translate the recognized Chinese text to Hindi using a translation service.
+3. Text-to-Speech: Convert the translated Hindi text back to speech using a text-to-speech library.
 
 # Required Libraries and Services
 
